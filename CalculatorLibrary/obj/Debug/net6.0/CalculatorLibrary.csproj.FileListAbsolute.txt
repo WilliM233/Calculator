@@ -1,0 +1,12 @@
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.deps.json
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.dll
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.pdb
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.csproj.AssemblyReference.cache
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.AssemblyInfoInputs.cache
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.AssemblyInfo.cs
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.dll
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\refint\CalculatorLibrary.dll
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.pdb
+D:\Projects\Portfolio\Calculator\CalculatorLibrary\obj\Debug\net6.0\ref\CalculatorLibrary.dll

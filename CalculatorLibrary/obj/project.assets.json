@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -13,19 +13,6 @@
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "CalculatorLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "bin/placeholder/CalculatorLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CalculatorLibrary.dll": {}
         }
       }
     }
@@ -60,16 +47,11 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "CalculatorLibrary/1.0.0": {
-      "type": "project",
-      "path": "../CalculatorLibrary/CalculatorLibrary.csproj",
-      "msbuildProject": "../CalculatorLibrary/CalculatorLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "CalculatorLibrary >= 1.0.0"
+    "net6.0": [
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -79,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Portfolio\\Calculator\\Calculator\\Calculator.csproj",
-      "projectName": "Calculator",
-      "projectPath": "D:\\Projects\\Portfolio\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "D:\\Projects\\Portfolio\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj",
+      "projectName": "CalculatorLibrary",
+      "projectPath": "D:\\Projects\\Portfolio\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Portfolio\\Calculator\\Calculator\\obj\\",
+      "outputPath": "D:\\Projects\\Portfolio\\Calculator\\CalculatorLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,7 +76,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -102,13 +84,9 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\Projects\\Portfolio\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj": {
-              "projectPath": "D:\\Projects\\Portfolio\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj"
-            }
-          }
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -118,8 +96,14 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
